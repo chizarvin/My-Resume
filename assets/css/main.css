@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+}
+.portfolio-block {
+  padding-bottom: 60px;
+  padding-top: 60px;
+  
+}
+
+.portfolio-block.block-intro {
+    background: url(../img/nature/laptop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-info-card.skills .progress {
+    height: 15px;
+}
+
+.portfolio-info-card.contact-info {
+    font-size: 18px;
+    line-height: 2;
+}
+
+
+@media only screen and (min-width: 551px) {
+    .display-4 {
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 550px) {
+    .display-4 {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 519px) {
+    .display-4 {
+        font-size: 43px;
+    }
+}
