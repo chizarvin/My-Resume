@@ -11,6 +11,8 @@ html {
     background: url(../img/nature/laptop.jpg);
     background-size: cover;
     background-position: center;
+    max-width: 100%;
+    height: auto;
 }
 
 .portfolio-info-card.skills .progress {
